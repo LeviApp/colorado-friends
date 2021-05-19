@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './SASS/app.sass';
 
 import {Route} from 'react-router-dom';
 
