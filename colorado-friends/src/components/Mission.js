@@ -4,8 +4,14 @@ import '../SASS/mission.sass';
 function Mission(props) {
     return (
         <div className="mission">
-           <h2>MISSION</h2>
-           <p>Chris Musaazi is from Uganda, Africa.  Chris takes a vision and makes it reality through sound strategy. He sees the threads of opportunity in the young generation that wind through an organization. He brings children together as a whole to help them extend their thinking and uplift their talents through different day-to-day activities to meet their future goals. Chris was a soccer player in one of Uganda's clubs, URA, and also served as a sports talent manager in an organization called Kampala Friends of Street Children. Chris studied Forestry Science, Diploma in Clearing and Forwarding from the Kampala College of Business Studies at Makerere University. Currently, he is a student of Ashworth School of Plumbing, USA.</p>
+            <h2>MISSION</h2>
+            <ul>
+                <li>To bring and uplift missing talents of children  within the community</li>
+                <li>To give children an opportunity to develop teamwork and physical wellbeing through soccer and drumming which will develop their life skills that extend beyond the games.</li>
+                <li>To develop children's life skills</li>
+                <li>To instill in children the ideas of a good God-fearing sportsman, honesty, loyalty and teamwork in order for them to become strong, healthy, well-adjusted members of the community</li>
+                <li>To bring African culture and voice to the forefront</li>
+            </ul>
 
         </div>
     );
