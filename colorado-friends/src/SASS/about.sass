@@ -1,0 +1,39 @@
+.about
+    display: flex
+    flex-direction: column
+    width: 100%
+    box-sizing: border-box;
+    section
+        width: 50%
+        h2
+            color: #FDDE01
+            background: black
+            padding: 20px
+            font-size: 2rem
+            text-align: right
+        ul
+            width: 90%
+            li
+                font-size: 1.25rem
+                margin: 20px 0;
+                padding-left: 10px
+            li::marker
+                content: "⬢"
+    section:nth-child(2n)
+        margin-left: auto
+        h2
+            color: #FDDE01
+            background: black
+            padding: 20px
+            font-size: 2rem
+            text-align: left
+            margin-left: auto
+
+        ul
+            width: 90%
+            li
+                font-size: 1.25rem
+                margin: 20px 0;
+                padding-left: 10px
+            li::marker
+                content: "⬢"
