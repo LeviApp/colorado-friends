@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './SASS/app.sass';
 
-import {Route} from 'react-router-dom';
+import {Route, Redirect} from 'react-router-dom';
 
 // COMPONENTS IMPORT
 import Nav from './components/Nav'
@@ -15,6 +15,7 @@ function App() {
   return (
     <div className="App">
       <Nav />
+      <Route exact path="/" render={(props) =>  <Redirect to="/founder" />} />
       <Route exact path="/founder" render={(props) =>  <Founder />} />
       <Route exact path="/about" render={(props) =>  <About />} />
       <Route exact path="/mission" render={(props) =>  <Mission />} />
