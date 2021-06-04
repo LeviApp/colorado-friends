@@ -34,6 +34,17 @@ function Mission(props) {
                 <li>To ensure that the world's cultures are transferred to every part of people's lives.</li>
             </ul>
             </section>
+
+            <section>
+            <h2>OBJECTIVES</h2>
+            <ul>
+                <li>To get recognition for the artistic and technical richness of African culture and dance.</li>
+                <li>To promote and preserve African dance heritage by creating professional choreographic works built on Afro-European and African traditions.</li>
+                <li>To utilize dance as a creative tool of learning and development within our communities in order to give people opportunities to realize their creative potential to improve their social, economic, personal, and artistic aspect of life.</li>
+                <li>To educate an elite force of specialists in the area of African dance who will use their knowledge, talent, and creativity in order to teach dance as an art form.
+</li>
+            </ul>
+            </section>
         </div>
     );
   }
