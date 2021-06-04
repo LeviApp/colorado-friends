@@ -1,31 +1,20 @@
 nav
     display: flex
-    flex-direction: column
     justify-content: center
     align-items: center
     width: 100%
-    padding-bottom: 20px
     border-bottom: 2px solid black
     margin-bottom: 10px
+    display: flex
+    justify-content: space-around
+    a
+        text-decoration: none
+        color: black
+        font-size: 1.5rem
+        font-weight: normal
+        transition: font-weight 0.25s;
+    .selected
+        font-weight: bolder
     img
         width: 300px
         margin: 20px
-
-    div
-        width: 95%
-        display: flex
-        justify-content: space-around
-        a
-            text-decoration: none
-            color: black
-            font-size: 1.5rem
-            font-weight: normal
-            transition: font-weight 0.25s;
-        a:nth-child(2)
-            margin-left: auto
-            margin-right: auto
-        a:nth-child(3)
-            margin-left: auto
-            margin-right: auto
-        .selected
-            font-weight: bolder

@@ -29,20 +29,19 @@ function Mission(props) {
             <h2>AIMS</h2>
             <ul>
                 <li>To develop artistic and strong works that are giving and inclusive to our audiences</li>
-                <li>To seamlessly use tradition and neo-traditional African movement vocabulary to create work developed from the Africanist movement, which reflects our social culture values and realities in global contexts</li>
-                <li>To ensure that discipline and multitasking skills develop through African dance and the rest of the world culture is firmly transferred to other areas of people , lives be it academic carrier or private.</li>
-                <li>To ensure that the world's cultures are transferred to every part of people's lives.</li>
+                <li>To seamlessly use tradition as well as neo-traditional African movement vocabulary to create work developed from the Africanist movement, which reflects our social, cultural values and realities in global contexts</li>
+                <li>To ensure that discipline and multitasking skills develop through African dance</li>
+                <li>To ensure that the world's cultures are transferred to every part of people's lives</li>
             </ul>
             </section>
 
             <section>
             <h2>OBJECTIVES</h2>
             <ul>
-                <li>To get recognition for the artistic and technical richness of African culture and dance.</li>
-                <li>To promote and preserve African dance heritage by creating professional choreographic works built on Afro-European and African traditions.</li>
-                <li>To utilize dance as a creative tool of learning and development within our communities in order to give people opportunities to realize their creative potential to improve their social, economic, personal, and artistic aspect of life.</li>
-                <li>To educate an elite force of specialists in the area of African dance who will use their knowledge, talent, and creativity in order to teach dance as an art form.
-</li>
+                <li>To get recognition for the artistic and technical richness of African culture and dance</li>
+                <li>To promote and preserve African dance heritage by creating professional choreographic works built on Afro-European and African traditions</li>
+                <li>To utilize dance as a creative tool of learning and development within our communities in order to give people opportunities to realize their creative potential to improve their social, economic, personal, and artistic aspect of life</li>
+                <li>To educate an elite force of specialists in the area of African dance who use their knowledge, talent, and creativity in order to teach dance as an art form</li>
             </ul>
             </section>
         </div>
