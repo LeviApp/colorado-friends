@@ -12,7 +12,11 @@ nav
         color: black
         font-size: 1.5rem
         font-weight: normal
-        transition: font-weight 0.25s;
+        transition: font-weight 0.25s;                display: flex
+                flex-direction: column
+                align-self: center
+        @media screen and (max-width:1024px)
+            display: none
     .selected
         font-weight: bolder
     img

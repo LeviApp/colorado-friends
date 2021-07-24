@@ -2,38 +2,80 @@
     display: flex
     flex-direction: column
     width: 100%
-    box-sizing: border-box;
-    section
-        width: 50%
-        h2
-            color: #FDDE01
-            background: black
-            padding: 20px
-            font-size: 2rem
-            text-align: right
-        ul
-            width: 95%
-            li
-                font-size: 1.25rem
-                margin: 20px 0;
-                padding-left: 10px
-            li::marker
-                content: "⬢"
-    section:nth-child(2n)
-        margin-left: auto
-        h2
-            color: #FDDE01
-            background: black
-            padding: 20px
-            font-size: 2rem
-            text-align: left
-            margin-left: auto
+    box-sizing: border-box
+    div
+        display: flex
+        margin-bottom: 40px
+        @media screen and (max-width:1024px)
+            flex-direction: column
+            justify-content: center
+            align-items: center
+        section
+            width: 50%
+            display: flex
+            flex-direction: column
+            justify-content: center
+            @media screen and (max-width:1024px)
+                width: 100%
 
-        ul
-            width: 90%
-            li
-                font-size: 1.25rem
-                margin: 20px 0;
-                padding-left: 10px
-            li::marker
-                content: "⬢"
+            h2
+                color: #FDDE01
+                background: black
+                padding: 20px
+                font-size: 2rem
+                text-align: right
+                @media screen and (max-width:1024px)
+                    text-align: center
+            ul
+                width: 95%
+                display: flex
+                flex-direction: column
+                align-self: center
+                @media screen and (max-width:1024px)
+                    width: 90%
+                li
+                    font-size: 1.25rem
+                    margin: 20px 0;
+                    padding-left: 10px
+                li::marker
+                    content: "⬢"
+        img
+            width: 50%
+            margin: 0px 40px
+            object-fit: cover
+            @media screen and (max-width:1024px)
+                width: 90%
+                margin: 0
+    div:nth-child(2n)
+        display: flex
+        margin-bottom: 40px
+        @media screen and (max-width:1024px)
+            flex-direction: column-reverse
+            justify-content: center
+            align-items: center
+        section:nth-child(2n)
+            width: 50%
+            display: flex
+            flex-direction: column
+            justify-content: center
+            @media screen and (max-width:1024px)
+                width: 100%
+            h2
+                color: #FDDE01
+                background: black
+                padding: 20px
+                font-size: 2rem
+                text-align: left
+                @media screen and (max-width:1024px)
+                    text-align: center
+            ul
+                width: 95%
+                display: flex
+                flex-direction: column
+                align-self: center
+                li
+                    font-size: 1.25rem
+                    margin: 20px 0;
+                    padding-left: 10px
+                li::marker
+                    content: "⬢"
