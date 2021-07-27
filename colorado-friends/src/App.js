@@ -9,6 +9,7 @@ import Founder from './components/Founder';
 import About from './components/About';
 import Mission from './components/Mission';
 import Team from './components/Team';
+import Footer from './components/Footer'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Route exact path="/about" render={(props) =>  <About />} />
       <Route exact path="/mission" render={(props) =>  <Mission />} />
       <Route exact path="/team" render={(props) =>  <Team />} />
+      <Footer />
     </div>
   );
 }
